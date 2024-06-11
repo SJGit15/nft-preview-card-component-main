@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 328px) {
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: 550px;
+    width: 350px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    border-radius: 15px;
+}
+
+.nft {
+    height: 350px;
+    margin-top: 30px;
+}
+
+.nft img {
+    width: 350px;
+    object-fit: contain;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.overlay-background {
+    background-color: cyan;
+    height: 310px; 
+    width: 308px;
+
+    position: relative;
+    left: 21px;
+    bottom: 335px;
+
+    opacity: 0;
+}
+
+.overlay-background:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.equilibrium {
+    padding-left: 22px;
+    height: 300px;
+}
+
+.equilibrium h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.equilibrium p, .time p, .creator p {
+    color: hsl(215, 51%, 70%);
+    font-weight:lighter;
+}
+
+.cyan-highlight-hover:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.eth-time {
+    display: flex;
+    gap: 58px;
+    padding-top: 15px;
+}
+
+.eth svg{
+    margin-left: 30px;
+}
+
+.eth {
+    width: 140px;
+}
+
+.eth p, .time p  {
+    float: right;
+}
+
+.eth p {
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    width: 160px;
+}
+
+.time svg {
+    margin-left: 50px;
+}
+
+.time p {
+    padding-right: 5px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    opacity: 20%;
+    height: 1px;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.creator {
+    padding-left: 30px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.creator img {
+    width: 40px;
+    object-fit: contain;
+    float: left;
+
+    background-color: #DDD;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator span {
+    color: white;
+}
+
+.creator p {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.overlay-img {
+    position: relative;
+    bottom: 380px;
+    opacity: 0;
+}
+
+.overlay-img img {
+    width: 50px;
+}
+
+.overlay-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+
+}
